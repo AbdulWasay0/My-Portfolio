@@ -259,7 +259,7 @@ export default function Home() {
   const [dark, setDark] = useState(false)
   const [mounted, setMounted] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
-  const [activeTheme, setActiveTheme] = useState<Theme>(themes[0])
+  const activeTheme = themes[0]
   const [activeExperience, setActiveExperience] = useState<number | null>(null)
   const expScrollRef = useRef<HTMLDivElement | null>(null)
   const [isMobile, setIsMobile] = useState(false)

@@ -1,1 +1,1 @@
-{"name":"portfolio-root","private":true,"scripts":{"dev":"cd Muhib-Portfolio-main && npm run dev -- --hostname 127.0.0.1"}}
+{"name":"abdul-wasay-portfolio","private":true,"scripts":{"dev":"cd Abdul-Wasay-Portfolio-main && npm run dev -- --hostname 127.0.0.1"}}
